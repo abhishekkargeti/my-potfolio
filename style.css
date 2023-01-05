@@ -1,0 +1,35 @@
+body
+{
+    margin: 0;
+
+}
+li
+{
+    display: inline;
+}
+div
+{
+   background-color: rgb(243, 238, 238);
+   /* margin-top: 200px; */
+   margin-left: 20px;
+}
+a
+{
+    text-decoration: none;
+    padding: 60px;
+    font-size: 20px;
+    color: rgb(92, 3, 21);
+    align-items: center;
+    
+}
+a:hover
+{
+    color: rgb(23, 132, 228);
+    font-weight: bold;
+}
+.ul
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
