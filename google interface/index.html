@@ -18,7 +18,7 @@
     <i class="fa fa-camera" aria-hidden="true" style="color:rgb(161, 56, 56) ;"></i>
     <br>
     <div class="inputdisplay">
-    <input type="button" value="Google search" id="input1"> 
+    <input type="button" onclick="searchongoogle()" value="Google search" id="input1"> 
     <input type="button" value="I'm Feeling Lucky" id="input2">
 </div> 
 <br>
@@ -53,5 +53,12 @@
     </div>
     </div>
 </div>
+    <script>
+        function searchongoogle(){
+            var searchQuery = document.getElementById('input1').value;
+            var searchURL ='https://www.google.com/search?gs_ssp='+searchQuery;
+            window.open(searchURL, '_self');
+        }
+    </script>
 </body>
 </html>
